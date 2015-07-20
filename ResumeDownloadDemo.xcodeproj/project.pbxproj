@@ -22,6 +22,7 @@
 		EE5ACDC91B56527900E36B05 /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5ACDC51B56527900E36B05 /* pause@2x.png */; };
 		EE5ACDCA1B56527900E36B05 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5ACDC61B56527900E36B05 /* play.png */; };
 		EE5ACDCB1B56527900E36B05 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5ACDC71B56527900E36B05 /* play@2x.png */; };
+		EE8E13631B5CE5630023E11C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EE8E13621B5CE5630023E11C /* README.md */; };
 		EEF13BFA1B58AE6D009B31F2 /* FileDownloadInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF13BF91B58AE6D009B31F2 /* FileDownloadInfo.m */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		EE5ACDC51B56527900E36B05 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
 		EE5ACDC61B56527900E36B05 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		EE5ACDC71B56527900E36B05 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		EE8E13621B5CE5630023E11C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EEF13BF81B58AE6D009B31F2 /* FileDownloadInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDownloadInfo.h; sourceTree = "<group>"; };
 		EEF13BF91B58AE6D009B31F2 /* FileDownloadInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDownloadInfo.m; sourceTree = "<group>"; };
 		FA56C9AF0AFD279CBAE284A8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		EE5ACD841B5509AB00E36B05 = {
 			isa = PBXGroup;
 			children = (
+				EE8E13621B5CE5630023E11C /* README.md */,
 				EE5ACD8F1B5509AB00E36B05 /* ResumeDownloadDemo */,
 				EE5ACDA91B5509AB00E36B05 /* ResumeDownloadDemoTests */,
 				EE5ACD8E1B5509AB00E36B05 /* Products */,
@@ -333,6 +336,7 @@
 				EE5ACD931B5509AB00E36B05 /* main.m in Sources */,
 				EE5ACDBB1B551BB200E36B05 /* SimpleDownloadViewController.m in Sources */,
 				EE5ACDB81B550F6A00E36B05 /* ListViewController.m in Sources */,
+				EE8E13631B5CE5630023E11C /* README.md in Sources */,
 				EEF13BFA1B58AE6D009B31F2 /* FileDownloadInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
