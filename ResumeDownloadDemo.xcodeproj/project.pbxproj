@@ -14,7 +14,6 @@
 		EE5ACD9E1B5509AB00E36B05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5ACD9D1B5509AB00E36B05 /* Images.xcassets */; };
 		EE5ACDA11B5509AB00E36B05 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5ACD9F1B5509AB00E36B05 /* LaunchScreen.xib */; };
 		EE5ACDAD1B5509AB00E36B05 /* ResumeDownloadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5ACDAC1B5509AB00E36B05 /* ResumeDownloadDemoTests.m */; };
-		EE5ACDB81B550F6A00E36B05 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5ACDB71B550F6A00E36B05 /* ListViewController.m */; };
 		EE5ACDBB1B551BB200E36B05 /* SimpleDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5ACDBA1B551BB200E36B05 /* SimpleDownloadViewController.m */; };
 		EE5ACDBF1B563BA200E36B05 /* DownloadTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5ACDBE1B563BA200E36B05 /* DownloadTVCell.m */; };
 		EE5ACDC21B56443F00E36B05 /* DownLoadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5ACDC11B56443F00E36B05 /* DownLoadModel.m */; };
@@ -50,8 +49,6 @@
 		EE5ACDA61B5509AB00E36B05 /* ResumeDownloadDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResumeDownloadDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5ACDAB1B5509AB00E36B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE5ACDAC1B5509AB00E36B05 /* ResumeDownloadDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResumeDownloadDemoTests.m; sourceTree = "<group>"; };
-		EE5ACDB61B550F6A00E36B05 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
-		EE5ACDB71B550F6A00E36B05 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		EE5ACDB91B551BB200E36B05 /* SimpleDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleDownloadViewController.h; sourceTree = "<group>"; };
 		EE5ACDBA1B551BB200E36B05 /* SimpleDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleDownloadViewController.m; sourceTree = "<group>"; };
 		EE5ACDBD1B563BA200E36B05 /* DownloadTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadTVCell.h; sourceTree = "<group>"; };
@@ -130,8 +127,6 @@
 			children = (
 				EE5ACD941B5509AB00E36B05 /* AppDelegate.h */,
 				EE5ACD951B5509AB00E36B05 /* AppDelegate.m */,
-				EE5ACDB61B550F6A00E36B05 /* ListViewController.h */,
-				EE5ACDB71B550F6A00E36B05 /* ListViewController.m */,
 				EE5ACDB91B551BB200E36B05 /* SimpleDownloadViewController.h */,
 				EE5ACDBA1B551BB200E36B05 /* SimpleDownloadViewController.m */,
 				EEF13BF81B58AE6D009B31F2 /* FileDownloadInfo.h */,
@@ -335,7 +330,6 @@
 				EE5ACD961B5509AB00E36B05 /* AppDelegate.m in Sources */,
 				EE5ACD931B5509AB00E36B05 /* main.m in Sources */,
 				EE5ACDBB1B551BB200E36B05 /* SimpleDownloadViewController.m in Sources */,
-				EE5ACDB81B550F6A00E36B05 /* ListViewController.m in Sources */,
 				EE8E13631B5CE5630023E11C /* README.md in Sources */,
 				EEF13BFA1B58AE6D009B31F2 /* FileDownloadInfo.m in Sources */,
 			);
