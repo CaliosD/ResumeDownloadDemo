@@ -18,9 +18,11 @@
     if (self) {
         _nameLabel                   = [[UILabel alloc]init];
         _downloadBtn                 = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_downloadBtn setBackgroundColor:[UIColor orangeColor]];
         [_downloadBtn setImage:[UIImage imageNamed:@"play-25"] forState:UIControlStateNormal];
         [_downloadBtn addTarget:self action:@selector(downloadBtnPressed:) forControlEvents:UIControlEventTouchUpInside];
         _stopBtn                     = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_stopBtn setBackgroundColor:[UIColor orangeColor]];
         [_stopBtn setImage:[UIImage imageNamed:@"stop-25"] forState:UIControlStateNormal];
         [_stopBtn addTarget:self action:@selector(stopBtnPressed:) forControlEvents:UIControlEventTouchUpInside];
         _progressView                = [[UIProgressView alloc]initWithProgressViewStyle:UIProgressViewStyleDefault];
